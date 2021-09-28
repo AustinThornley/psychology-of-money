@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  /* background: rgb(114, 137, 124); */
 }
 
 .nav {
@@ -38,7 +39,7 @@ body {
   grid-template-columns: 1fr 1fr;
   background: rgb(114, 137, 124);
   color: #222;
-  height: 100vh;
+  min-height: calc(100vh - 100px);
 }
 
 .img-container img {
@@ -62,6 +63,7 @@ body {
 }
 
 .btn {
+  text-decoration: none;
 }
 
 .cta-btn {
